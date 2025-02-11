@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: jannat@frappe.io\n"
-"POT-Creation-Date: 2025-01-24 16:04+0000\n"
-"PO-Revision-Date: 2025-02-04 15:05\n"
+"POT-Creation-Date: 2025-01-17 16:04+0000\n"
+"PO-Revision-Date: 2025-01-21 11:11\n"
 "Last-Translator: jannat@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -793,7 +793,7 @@ msgstr "تغییر دادن"
 
 #: frontend/src/components/Assignment.vue:316
 msgid "Changes saved successfully"
-msgstr "تغییرات با موفقیت ذخیره شد"
+msgstr ""
 
 #. Label of the chapter (Link) field in DocType 'Chapter Reference'
 #. Label of the chapter (Link) field in DocType 'LMS Course Progress'
@@ -823,7 +823,7 @@ msgstr "فصل با موفقیت به روز شد"
 msgid "Chapters"
 msgstr "فصل‌ها"
 
-#: frontend/src/components/Quiz.vue:205 lms/templates/quiz/quiz.html:120
+#: frontend/src/components/Quiz.vue:203 lms/templates/quiz/quiz.html:120
 msgid "Check"
 msgstr "بررسی"
 
@@ -846,7 +846,7 @@ msgstr ""
 msgid "Choices"
 msgstr "گزینه‌ها"
 
-#: frontend/src/components/Quiz.vue:589 lms/templates/quiz/quiz.html:53
+#: frontend/src/components/Quiz.vue:587 lms/templates/quiz/quiz.html:53
 msgid "Choose all answers that apply"
 msgstr "همه‌ی پاسخ‌هایی که صحیح هستند را انتخاب کردن کنید"
 
@@ -854,7 +854,7 @@ msgstr "همه‌ی پاسخ‌هایی که صحیح هستند را انتخا
 msgid "Choose an icon"
 msgstr "یک تصویر انتخاب کن"
 
-#: frontend/src/components/Quiz.vue:590 lms/templates/quiz/quiz.html:53
+#: frontend/src/components/Quiz.vue:588 lms/templates/quiz/quiz.html:53
 msgid "Choose one answer"
 msgstr "یک پاسخ را انتخاب کردن کنید"
 
@@ -1096,7 +1096,7 @@ msgid "Continue Learning"
 msgstr ""
 
 #. Option for the 'Type' (Select) field in DocType 'Job Opportunity'
-#: frontend/src/pages/Jobs.vue:146
+#: frontend/src/pages/Jobs.vue:152
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "Contract"
 msgstr "قرارداد"
@@ -1117,7 +1117,7 @@ msgstr ""
 #. Option for the 'Status' (Select) field in DocType 'Exercise Latest
 #. Submission'
 #. Option for the 'Status' (Select) field in DocType 'Exercise Submission'
-#: frontend/src/components/Quiz.vue:165
+#: frontend/src/components/Quiz.vue:163
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
 msgid "Correct"
@@ -1593,7 +1593,7 @@ msgstr ""
 
 #: lms/lms/doctype/lms_question/lms_question.py:33
 msgid "Duplicate options found for this question."
-msgstr "گزینه‌های تکراری برای این سوال پیدا شد."
+msgstr "گزینه های تکراری برای این سوال پیدا شد."
 
 #. Label of the duration (Data) field in DocType 'Cohort'
 #. Label of the duration (Data) field in DocType 'LMS Batch Timetable'
@@ -1662,7 +1662,7 @@ msgstr ""
 
 #: frontend/src/components/Members.vue:32 lms/templates/signup-form.html:10
 msgid "Email"
-msgstr "ایمیل"
+msgstr "پست الکترونیک"
 
 #: frontend/src/components/Modals/Event.vue:16
 msgid "Email ID"
@@ -2042,7 +2042,7 @@ msgid "Free"
 msgstr "رایگان"
 
 #. Option for the 'Type' (Select) field in DocType 'Job Opportunity'
-#: frontend/src/pages/Jobs.vue:147
+#: frontend/src/pages/Jobs.vue:153
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "Freelance"
 msgstr ""
@@ -2084,7 +2084,7 @@ msgid "Full Name"
 msgstr "نام و نام خانوادگی"
 
 #. Option for the 'Type' (Select) field in DocType 'Job Opportunity'
-#: frontend/src/pages/Jobs.vue:144
+#: frontend/src/pages/Jobs.vue:150
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "Full Time"
 msgstr "تمام وقت"
@@ -2341,7 +2341,7 @@ msgstr "ناتمام"
 #. Option for the 'Status' (Select) field in DocType 'Exercise Latest
 #. Submission'
 #. Option for the 'Status' (Select) field in DocType 'Exercise Submission'
-#: frontend/src/components/Quiz.vue:170
+#: frontend/src/components/Quiz.vue:168
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
 msgid "Incorrect"
@@ -2985,7 +2985,7 @@ msgstr ""
 msgid "Manifest File"
 msgstr ""
 
-#: frontend/src/components/Quiz.vue:96
+#: frontend/src/components/Quiz.vue:94
 msgid "Mark"
 msgstr ""
 
@@ -3001,7 +3001,7 @@ msgstr "علامت‌گذاری به عنوان خوانده شد"
 #. Label of the marks (Int) field in DocType 'LMS Quiz Result'
 #: frontend/src/components/Modals/Question.vue:50
 #: frontend/src/components/Modals/Question.vue:99
-#: frontend/src/components/Quiz.vue:96 frontend/src/pages/QuizForm.vue:390
+#: frontend/src/components/Quiz.vue:94 frontend/src/pages/QuizForm.vue:390
 #: frontend/src/pages/QuizSubmission.vue:59
 #: lms/lms/doctype/lms_quiz_question/lms_quiz_question.json
 #: lms/lms/doctype/lms_quiz_result/lms_quiz_result.json
@@ -3342,7 +3342,7 @@ msgstr ""
 msgid "New {0}"
 msgstr "{0} جدید"
 
-#: frontend/src/components/Quiz.vue:213 frontend/src/pages/Lesson.vue:84
+#: frontend/src/components/Quiz.vue:211 frontend/src/pages/Lesson.vue:84
 msgid "Next"
 msgstr "بعد"
 
@@ -3365,7 +3365,7 @@ msgstr ""
 
 #: lms/templates/upcoming_evals.html:43
 msgid "No Upcoming Evaluations"
-msgstr "بدون ارزیابی های آتی"
+msgstr ""
 
 #: frontend/src/components/Annoucements.vue:24
 msgid "No announcements"
@@ -3437,7 +3437,7 @@ msgstr ""
 
 #: frontend/src/components/UpcomingEvaluations.vue:41
 msgid "No upcoming evaluations."
-msgstr "بدون ارزیابی های آتی."
+msgstr ""
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -3669,7 +3669,7 @@ msgid "Pan Number"
 msgstr ""
 
 #. Option for the 'Type' (Select) field in DocType 'Job Opportunity'
-#: frontend/src/pages/Jobs.vue:145
+#: frontend/src/pages/Jobs.vue:151
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "Part Time"
 msgstr "پاره وقت"
@@ -3838,7 +3838,7 @@ msgstr ""
 
 #: frontend/src/components/Modals/LiveClassModal.vue:164
 msgid "Please enter a title."
-msgstr "لطفا یک عنوان وارد کنید."
+msgstr ""
 
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.py:40
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.py:125
@@ -4049,7 +4049,7 @@ msgstr ""
 
 #: frontend/src/components/Modals/EditProfile.vue:37
 msgid "Profile Image"
-msgstr "عکس نمایه"
+msgstr "عکس پروفایل"
 
 #: frontend/src/pages/ProgramForm.vue:155
 msgid "Program Course"
@@ -4161,11 +4161,11 @@ msgstr ""
 msgid "Question updated successfully"
 msgstr ""
 
-#: frontend/src/components/Quiz.vue:88
+#: frontend/src/components/Quiz.vue:86
 msgid "Question {0}"
 msgstr "سوال {0}"
 
-#: frontend/src/components/Quiz.vue:190
+#: frontend/src/components/Quiz.vue:188
 msgid "Question {0} of {1}"
 msgstr "سوال {0} از {1}"
 
@@ -4202,7 +4202,7 @@ msgstr ""
 msgid "Quiz Submissions"
 msgstr ""
 
-#: frontend/src/components/Quiz.vue:227
+#: frontend/src/components/Quiz.vue:225
 msgid "Quiz Summary"
 msgstr ""
 
@@ -4488,7 +4488,7 @@ msgstr ""
 
 #: frontend/src/pages/Assignments.vue:25
 msgid "Search by title"
-msgstr "جستجو بر اساس عنوان"
+msgstr ""
 
 #: frontend/src/components/Controls/IconPicker.vue:36
 msgid "Search for an icon"
@@ -4718,7 +4718,7 @@ msgstr ""
 msgid "Stage"
 msgstr "صحنه"
 
-#: frontend/src/components/LiveClass.vue:50 frontend/src/components/Quiz.vue:67
+#: frontend/src/components/LiveClass.vue:50 frontend/src/components/Quiz.vue:65
 #: lms/templates/quiz/quiz.html:39
 msgid "Start"
 msgstr "شروع"
@@ -4893,14 +4893,14 @@ msgstr ""
 #: frontend/src/components/Assignment.vue:10
 #: frontend/src/components/Assignment.vue:13
 msgid "Submission by"
-msgstr "ارسال توسط"
+msgstr ""
 
 #: frontend/src/components/BatchFeedback.vue:14
 #: frontend/src/components/Modals/AssessmentModal.vue:9
 #: frontend/src/components/Modals/BatchCourseModal.vue:9
 #: frontend/src/components/Modals/EvaluationModal.vue:9
 #: frontend/src/components/Modals/Question.vue:338
-#: frontend/src/components/Quiz.vue:218 lms/templates/assignment.html:9
+#: frontend/src/components/Quiz.vue:216 lms/templates/assignment.html:9
 #: lms/templates/livecode/extension_footer.html:25
 #: lms/templates/quiz/quiz.html:128 lms/templates/reviews.html:163
 #: lms/www/new-sign-up.html:32
@@ -4953,7 +4953,7 @@ msgstr "خلاصه"
 msgid "Sunday"
 msgstr "یکشنبه"
 
-#: lms/lms/api.py:995
+#: lms/lms/api.py:983
 msgid "Suspicious pattern found in {0}: {1}"
 msgstr ""
 
@@ -5198,7 +5198,7 @@ msgstr "پنج شنبه"
 #. Label of the time (Time) field in DocType 'LMS Live Class'
 #: frontend/src/components/Modals/Event.vue:48
 #: frontend/src/components/Modals/LiveClassModal.vue:37
-#: frontend/src/components/Quiz.vue:45
+#: frontend/src/components/Quiz.vue:44
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Time"
 msgstr "زمان"
@@ -5340,7 +5340,7 @@ msgstr ""
 msgid "Travel"
 msgstr "سفر"
 
-#: frontend/src/components/Quiz.vue:256 lms/templates/quiz/quiz.html:131
+#: frontend/src/components/Quiz.vue:254 lms/templates/quiz/quiz.html:131
 msgid "Try Again"
 msgstr "دوباره امتحان کنید"
 
@@ -5374,7 +5374,7 @@ msgstr "توییتر"
 msgid "Type"
 msgstr "نوع"
 
-#: frontend/src/components/Quiz.vue:591
+#: frontend/src/components/Quiz.vue:589
 msgid "Type your answer"
 msgstr ""
 
@@ -5412,7 +5412,7 @@ msgstr ""
 
 #: frontend/src/pages/Batches.vue:262 frontend/src/pages/Batches.vue:278
 msgid "Unpublished"
-msgstr "منتشر نشده"
+msgstr ""
 
 #: frontend/src/components/Modals/EditCoverImage.vue:60
 #: frontend/src/components/UnsplashImageBrowser.vue:54
@@ -5435,7 +5435,7 @@ msgstr ""
 #: frontend/src/pages/CourseForm.vue:184 lms/lms/doctype/cohort/cohort.json
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Upcoming"
-msgstr "آینده"
+msgstr ""
 
 #: frontend/src/pages/Batch.vue:169
 msgid "Upcoming Batches"
@@ -5444,7 +5444,7 @@ msgstr ""
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: lms/templates/upcoming_evals.html:3
 msgid "Upcoming Evaluations"
-msgstr "ارزیابی های آتی"
+msgstr ""
 
 #: frontend/src/components/BrandSettings.vue:23
 #: frontend/src/components/PaymentSettings.vue:27
@@ -5541,7 +5541,7 @@ msgstr ""
 
 #: frontend/src/pages/Notifications.vue:38
 msgid "View"
-msgstr "نما"
+msgstr "چشم انداز"
 
 #: frontend/src/components/Modals/Event.vue:67
 msgid "View Certificate"
@@ -5709,7 +5709,7 @@ msgstr ""
 msgid "You got"
 msgstr ""
 
-#: frontend/src/components/Quiz.vue:238
+#: frontend/src/components/Quiz.vue:236
 #, python-format
 msgid "You got {0}% correct answers with a score of {1} out of {2}"
 msgstr ""
@@ -5718,7 +5718,7 @@ msgstr ""
 msgid "You have already applied for this job."
 msgstr ""
 
-#: frontend/src/components/Quiz.vue:72 lms/templates/quiz/quiz.html:43
+#: frontend/src/components/Quiz.vue:70 lms/templates/quiz/quiz.html:43
 msgid "You have already exceeded the maximum number of attempts allowed for this quiz."
 msgstr ""
 
@@ -5807,7 +5807,7 @@ msgstr ""
 msgid "Your score is"
 msgstr ""
 
-#: frontend/src/components/Quiz.vue:231
+#: frontend/src/components/Quiz.vue:229
 msgid "Your submission has been successfully saved. The instructor will review and grade it shortly, and you'll be notified of your final result."
 msgstr ""
 
@@ -5888,7 +5888,7 @@ msgstr "هفته ها"
 msgid "you can"
 msgstr ""
 
-#: lms/lms/api.py:792 lms/lms/api.py:800
+#: lms/lms/api.py:780 lms/lms/api.py:788
 msgid "{0} Settings not found"
 msgstr ""
 

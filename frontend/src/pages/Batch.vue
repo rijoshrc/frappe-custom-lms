@@ -21,7 +21,7 @@
 				</Button>
 			</div>
 		</header>
-		<div v-if="batch.data" class="grid grid-cols-[75%,25%]">
+		<div v-if="batch.data" class="grid grid-cols-[75%,25%] h-screen">
 			<div class="border-r">
 				<Tabs
 					v-model="tabIndex"
@@ -149,7 +149,7 @@
 				<div v-if="user.data" class="mb-4 leading-6">
 					{{
 						__(
-							'You are not a member of this batch. Please checkout our upcoming batches.'
+							'You are not a member of this batch. Please checkout our upcoming batches.',
 						)
 					}}
 				</div>

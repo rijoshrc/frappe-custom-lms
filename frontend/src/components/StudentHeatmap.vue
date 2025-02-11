@@ -27,7 +27,7 @@ const props = defineProps({
 	member: {
 		type: String,
 	},
-	days: {
+	base_days: {
 		type: Number,
 		default: 200,
 	},
@@ -42,7 +42,7 @@ const heatmap = createResource({
 	makeParams(values) {
 		return {
 			member: values.member,
-			base_days: props.days,
+			base_days: props.base_days,
 		}
 	},
 	auto: false,
@@ -58,7 +58,7 @@ watch(memberName, (newVal) => {
 			onSuccess(data) {
 				labels.value = data.labels
 			},
-		}
+		},
 	)
 })
 

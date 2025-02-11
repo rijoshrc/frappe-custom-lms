@@ -67,7 +67,7 @@
 				<ListRow
 					:row="row"
 					v-for="row in feedbackList.data"
-					class="group cursor-pointer feedback-list"
+					class="group cursor-pointer"
 				>
 					<template #default="{ column, item }">
 						<ListRowItem
@@ -186,7 +186,7 @@ watch(
 				average[key] = average[key] / data.length
 			})
 		}
-	}
+	},
 )
 
 const submitFeedback = () => {
@@ -203,7 +203,7 @@ const submitFeedback = () => {
 			onSuccess: () => {
 				feedbackList.reload()
 			},
-		}
+		},
 	)
 }
 
@@ -237,9 +237,3 @@ const feedbackColumns = computed(() => {
 	]
 })
 </script>
-<style>
-.feedback-list > button > div {
-	align-items: start;
-	padding: 0.25rem 0;
-}
-</style>

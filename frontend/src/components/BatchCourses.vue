@@ -18,7 +18,6 @@
 				row-key="batch_course"
 				:options="{
 					showTooltip: false,
-					selectable: user.data?.is_student ? false : true,
 					getRowRoute: (row) => ({
 						name: 'CourseDetail',
 						params: { courseName: row.name },
@@ -151,7 +150,7 @@ const removeCourses = (selections, unselectAll) => {
 				showToast(__('Success'), __('Courses deleted successfully'), 'check')
 				unselectAll()
 			},
-		}
+		},
 	)
 }
 
