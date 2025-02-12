@@ -165,11 +165,6 @@ const evaluator = createResource({
 	onSuccess(data) {
 		if (data.slots.unavailable_from) from.value = data.slots.unavailable_from
 		if (data.slots.unavailable_to) to.value = data.slots.unavailable_to
-
-		data.slots.schedule.forEach((slot) => {
-			slot.start_time = formatTime(slot.start_time)
-			slot.end_time = formatTime(slot.end_time)
-		})
 	},
 })
 
@@ -325,13 +320,5 @@ const days = computed(() => {
 		},
 	]
 })
-
-const formatTime = (time) => {
-	if (!time) return ''
-	const parts = time.split(':')
-	if (parts.length < 3) return time
-	const hours = parts[0].padStart(2, '0')
-	return `${hours}:${parts[1]}:${parts[2]}`
-}
 
 </script>
